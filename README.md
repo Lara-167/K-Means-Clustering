@@ -4,8 +4,8 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Lara-167/K-Means-Clustering/HEAD)
 
-#Projektbeschreibung: Für dieses Projekt werden wir versuchen K Means Clustering zu verwenden, um Universitäten in den USA in zwei Gruppen zu unterteilen: Private und öffentliche.
-Ein wichtiger Hinweis gleich zu beginn: Für diese Universitäten wissen wir die tatsächliche Zuordnung und finden sie im Datensatz. Wir werden sie aber ignorieren da K Means Clustering ein Unsupervised Learning Algorithmus ist. Normalerweise verwendet man den K Means Clustering Algorithmus für Daten, deren Zugehörigkeit zu einem Cluster man nicht kennt. In diesem Fall verwenden wir die Zuteilung, um beurteilen zu können, wie gut der Algorithmus performt. Da das in echten Anwendungen nicht möglich ist sind Confusion Matrix und Classification Report am Ende des Projekts nur theoretische Auswertungen.
+#Projektbeschreibung: Für dieses Projekt wird K Means Clustering verwendet, um Universitäten in den USA in zwei Gruppen zu unterteilen: Private und öffentliche.
+Für diese Universitäten ist die tatsächliche Zuordnung bekannt und im Datensatz zu finden. Dies wird aber ignoriert, da K Means Clustering ein Unsupervised Learning Algorithmus ist. Normalerweise verwendet man den K Means Clustering Algorithmus für Daten, deren Zugehörigkeit zu einem Cluster man nicht kennt. In diesem Fall wird die Zuteilung verwendet, um beurteilen zu können, wie gut der Algorithmus performt. Da das in echten Anwendungen nicht möglich ist sind Confusion Matrix und Classification Report am Ende des Projekts nur theoretische Auswertungen.
 
 #Der Datensatz beinhaltet folgende Eigenschaften:
 
@@ -28,10 +28,10 @@ Ein wichtiger Hinweis gleich zu beginn: Für diese Universitäten wissen wir die
     Expend: Verwaltungskosten pro Student
     Grad.Rate: Abschlussrate
 
-#Code-Ausführung: #GitHub URL des Repository "Logistic-Regression" in https://mybinder.org/ einfügen und launchen 
-#Notebook öffnen 
-#Code-Zeilen nacheinander ausführen lassen 
-#Future Warning ist eine Warninformation und gilt für zukünftige Versionen.
+#Code-Ausführung: 
+1. GitHub URL des Repository "Logistic-Regression" in https://mybinder.org/ einfügen und launchen 
+2. Notebook öffnen 
+3. Code-Zeilen nacheinander ausführen lassen 
 
 #Code-Abfolge: 
 1. Libraries importieren (nachdem sie vorab durch binder installiert wurden)
@@ -41,5 +41,4 @@ Ein wichtiger Hinweis gleich zu beginn: Für diese Universitäten wissen wir die
 5. Vorhersagen und Auswertung
 
 #Projektergebnis: 
-#Es ist mit einer Accuracy von 0.78 zu rechnen. #Damit sind 78% der Vorhersagen der Modelle korrekt. 
-#Der Klassifizierungsreport zeigt die Genauigkeit des Modells, um Universitäten in den USA in zwei Gruppen einteilen zu können: Private und öffentliche
+Es ist mit einer Accuracy von 0.78 zu rechnen. Damit sind 78% der Vorhersagen der Modelle korrekt. Der Klassifizierungsreport zeigt die Genauigkeit des Modells, um Universitäten in den USA in zwei Gruppen einteilen zu können: Private und öffentliche
