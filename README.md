@@ -35,10 +35,10 @@ Für diese Universitäten ist die tatsächliche Zuordnung bekannt und im Datensa
 
 #Code-Abfolge: 
 1. Libraries importieren (nachdem sie vorab durch binder installiert wurden)
-2. Daten einlesen
-3. Explorative Datenanalyse
+2. Daten einlesen aus der College_Data CSV-Datei
+3. Explorative Datenanalyse durchführen; Modellbildung mit Seaborn
 4. K Means Cluster erstellen
-5. Vorhersagen und Auswertung
+5. Vorhersagen und Auswertung mithilfe eines Klassifizierungsreports durchführen
 
 #Projektergebnis: 
 Es ist mit einer Accuracy von 0.78 zu rechnen. Damit sind 78% der Vorhersagen der Modelle korrekt. Der Klassifizierungsreport zeigt die Genauigkeit des Modells, um Universitäten in den USA in zwei Gruppen einteilen zu können: Private und öffentliche
