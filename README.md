@@ -29,7 +29,7 @@ Für diese Universitäten ist die tatsächliche Zuordnung bekannt und im Datensa
     Grad.Rate: Abschlussrate
 
 #Code-Ausführung: 
-1. GitHub URL des Repository "Logistic-Regression" in https://mybinder.org/ einfügen und launchen 
+1. GitHub URL des Repository "K-Means-Clustering" in https://mybinder.org/ einfügen und launchen 
 2. Notebook öffnen 
 3. Code-Zeilen nacheinander ausführen lassen 
 
